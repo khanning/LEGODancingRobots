@@ -1,10 +1,11 @@
 /*LEGO Dancing Robots
  * connect buttons or other digital inputs to digital 2 and 3 using a pull down resistor as described here https://www.arduino.cc/en/tutorial/button
  * connect the infrared led to digital 12 as described here https://www.arduino.cc/en/Tutorial/Blink (connect to 12 instead of 13)
- * LEGOPowerFunctions library is found
+ * LEGOPowerFunctions library is found in the git. Online at http://basbase.com/robocam/LEGOPowerFunctions.zip Based on code of Bob Kojima 01-19-2008 further modified by Roland Wiersma
+ * install library as usual: https://www.arduino.cc/en/Guide/Libraries
  * 
  * version notes: 
- * - the timing of both inputs interfere, so erratic behaviour might occur
+ * - the timing of both inputs interfere, so erratic behaviour might occur. Using interrupts in improved version?
  * - only channel 1 is receiving input on red and blue to limit the time needed for the messages to be sent
 
 
