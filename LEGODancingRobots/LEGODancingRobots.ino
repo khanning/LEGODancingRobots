@@ -1,8 +1,11 @@
+
 /*LEGO Dancing Robots
  * connect buttons or other digital inputs to digital 2 and 3 using a pull down resistor as described here https://www.arduino.cc/en/tutorial/button
  * connect the infrared led to digital 12 as described here https://www.arduino.cc/en/Tutorial/Blink (connect to 12 instead of 13)
  * LEGOPowerFunctions library is found in the git. Online at http://basbase.com/robocam/LEGOPowerFunctions.zip Based on code of Bob Kojima 01-19-2008 further modified by Roland Wiersma
  * install library as usual: https://www.arduino.cc/en/Guide/Libraries
+ * It looks like you need to replace "WProgram.h" with Arduino.h in the LEGOPowerfunctions library - I ought to do a PR for that. Meanwhile, just replace it:
+ *http://forum.arduino.cc/index.php?topic=147680.0
  * 
  * version notes: 
  * - the timing of both inputs interfere, so erratic behaviour might occur. Using interrupts in improved version?
@@ -40,7 +43,7 @@ unsigned long blueBeatTime = 0;
 
 int redPin = 2;
 int bluePin = 3;
-int movementDuration = 100000; //how long the motors should be on, measured in microseconds
+int movementDuration = 150000; //how long the motors should be on, measured in microseconds. I found 200000 to be a bit laggy response wise, but 1000000 not quite enough movement.
 
 void setup() {
   // initialize serial:
