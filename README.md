@@ -11,4 +11,4 @@ You need: An Arduino, an IR LED, a few resistors and a breadboard.
 
 * Connect the infrared led to digital 12 as described here [https://www.arduino.cc/en/Tutorial/Blink] (connect to 12 instead of 13)
 
-You can find pics and Video of Dancing Robots here: [https://goo.gl/photos/jTpBvUetYyGYHzLu8] (And add your own.)
+You can find pics and Video of Dancing Robots here: [https://goo.gl/photos/jTpBvUetYyGYHzLu8]
