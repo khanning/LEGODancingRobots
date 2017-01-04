@@ -5,7 +5,8 @@ This activity invites participants to build simple robots using LEGO Power Funct
 
 You need: An Arduino, an IR LED, a few resistors and a breadboard.
 
-Physical setup: 
-1. Connect buttons or other digital inputs to digital 2 and 3 using a pull down resistor as described here https://www.arduino.cc/en/tutorial/button
+**Physical setup**
 
-2. connect the infrared led to digital 12 as described here https://www.arduino.cc/en/Tutorial/Blink (connect to 12 instead of 13)
+* Connect buttons or other digital inputs to digital 2 and 3 using a pull down resistor as described here [https://www.arduino.cc/en/tutorial/button]
+
+* Connect the infrared led to digital 12 as described here [https://www.arduino.cc/en/Tutorial/Blink] (connect to 12 instead of 13)
