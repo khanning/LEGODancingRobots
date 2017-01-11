@@ -19,3 +19,9 @@ The robots use standard LEGO Power Functions parts. You need:
 * LEGO Power Functions IR Receiver [https://shop.lego.com/en-US/LEGO-Power-Functions-IR-Receiver-8884]
 
 You can find pics and Video of Dancing Robots here: [https://goo.gl/photos/jTpBvUetYyGYHzLu8]
+
+**Connecting to Scratch**
+
+1. Upload the [LEGODancingRobotsScratch/LEGODancingRobotsScratch.ino](LEGODancingRobotsScratch/LEGODancingRobotsScratch.ino) sketch to the Arduino
+2. Install the [Scratch Extension Browser Plugin](https://scratch.mit.edu/info/ext_download/) for (other web browsers)
+3. Launch the [LEGOdancingRobotExtension.js](LEGOdancingRobotExtension.js) in ScratchX on Firefox. Make sure to allow the Scratch device plugin when prompted.
